@@ -1,0 +1,25 @@
+VirtualBox XPCOM Server 4.3.14_OSE r95030 linux.amd64 (Aug 25 2014 16:50:43) release log
+00:00:00.003299 main     Log opened 2014-09-03T12:41:29.178999000Z
+00:00:00.003300 main     Build Type: release
+00:00:00.003304 main     OS Product: Linux
+00:00:00.003304 main     OS Release: 3.16.1-1-ARCH
+00:00:00.003305 main     OS Version: #1 SMP PREEMPT Thu Aug 14 07:40:19 CEST 2014
+00:00:00.003328 main     DMI Product Name: System Product Name
+00:00:00.003334 main     DMI Product Version: System Version
+00:00:00.003385 main     Host RAM: 16020MB total, 13861MB available
+00:00:00.003388 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.003388 main     Process ID: 6015
+00:00:00.003389 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.139197 nspr-2   Loading settings file "/home/kebock/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:00:00.162652 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.165253 nspr-2   HostDnsMonitorProxy: Host's DNS information updated:
+00:00:00.165270 nspr-2   DNS server 1: 10.0.0.72
+00:00:00.165275 nspr-2   DNS server 2: 10.0.0.2
+00:00:00.226655 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vboxnet0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.235917 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vboxnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.253657 nspr-2   VDInit finished
+00:00:00.375888 nspr-2   Loading settings file "/data/kebock/VirtualBox VMs/Windows 7/Windows 7.vbox" with version "1.12-linux"
+00:00:03.148742 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={480cf695-2d8d-4256-9c7c-cce4184fa048} aComponent={Machine} aText={Machine is not locked for session (session state: Unlocked)}, preserve=false
+00:00:03.485449 nspr-4   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] rc VINF_SUCCESS
+00:00:03.769184 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vboxnet0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:03.772811 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for vboxnet1: VBoxNetAdpCtl: ioctl failed: Operation not supported

@@ -1,0 +1,17 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "icon_48.png"
+   },
+   "description": "Extension to add current page to myPlex queue",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "48": "icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4R6nE89QJT4L2Y6JsQinXRdRq+P8RGO8AJufyMQj5QZk/JGklLZkKQruY+/8VVlQL9HWvuuExs2Neji+CnSRgsMXVfFUf9KXC4aJH7aistgr0jD+Je/ceCEryGqgSuFzMNB64FSkK2lAIHG+T/nO3J65jrWX4imTOmW3JIrAjuQIDAQAB",
+   "name": "myPlex Queue Extension",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.2"
+}

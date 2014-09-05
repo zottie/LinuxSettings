@@ -1,0 +1,29 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "framesBroker.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "wunderStyle.css" ],
+      "js": [ "jquery-1.7.2.min.js", "contentGmail.js" ],
+      "matches": [ "https://mail.google.com/*", "https://www.google.com/calendar/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [ "injectedStyleWunder.css" ],
+      "js": [ "jquery-1.7.2.min.js", "contentWunder.js" ],
+      "matches": [ "https://www.wunderlist.com/*" ]
+   } ],
+   "description": "Show Wunderlist3 to the right of your Gmail inbox or GCalendar, so that you check your todo-lists with your email!",
+   "icons": {
+      "128": "WunderlistGmail.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh/ncj+QtDsRfaieOHKNQu169C4k8Rmfeyx5jF+sA2XHhJqDm1dmMVEmdZZyDXOpK2tItAHdozM4Mypka1Gn3hi0o+qL2MOIuVo+VcvdzY760FkjQPQRgVK2rN8+mjDWkN/fnuMmt0IE1QNMMimcet4VNffAeM974nT9phMCTcuQIDAQAB",
+   "manifest_version": 2,
+   "name": "Wunderlist in Gmail",
+   "options_page": "options.html",
+   "permissions": [ "https://mail.google.com/*", "https://www.google.com/calendar/*", "https://www.wunderlist.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.60.2",
+   "web_accessible_resources": [ "gear.png", "update-drag-sample.jpg" ]
+}

@@ -1,0 +1,88 @@
+@media print{
+    #wunderframe{
+        display: none;
+    }
+    .wunderlistgmail{
+        display: none;
+    }
+    html{
+        width: 100%;
+    }
+}
+
+#wunderframe{
+	position: fixed;
+	height: 100%;
+	right: 0px;
+	z-index: 6;
+	border-left: solid 1px black;
+    padding-top: 24px;
+	box-sizing: border-box;
+    background-color: #2d2d2d;
+}
+
+#wunderframe.oculto{
+	width: 0px;
+	min-width: 0px;
+	display: none;
+}
+
+
+.wunderlistgmail{
+	background-color: rgba(45,45,45,0.6);
+	position: fixed;
+	top: 1px;
+	right: 15px;
+	padding: 0px 3px 3px 3px;
+
+	z-index: 9999;
+    border-radius: 5px;
+}
+
+.wunderlistgmail .options img{
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+#wunderframe iframe{
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+
+.wunderDragHandle{
+    position: fixed;
+    top: 50%;
+    right: 25%;
+
+    z-index: 9999;
+
+    border: solid 1px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.57);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAABCAIAAAB7QOjdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAPSURBVBhXY4iIiDh8+DAACcEDUmQRcHwAAAAASUVORK5CYII=);
+    background-position-x: 1px;
+    /* box-shadow: inset 1px 1px 3px 1px white; */
+    cursor: w-resize;
+    width: 9px;
+    margin-right: -6px;
+    height: 60px;
+}
+.wunderResizingBox{
+    background-color: yellow;
+    opacity: 0.5;
+    height: 100%;
+    z-index: 6;
+    top: 0;
+    position: fixed;
+}
+.wunderDragHandle:hover{
+    box-shadow: 0px 0px 12px 3px white,0px 0px 25px 0px white;
+}
+
+.wunderlistgmail a.onoff{
+	font-family: sans-serif;
+	color: white;
+    font-size: 11px;
+}
